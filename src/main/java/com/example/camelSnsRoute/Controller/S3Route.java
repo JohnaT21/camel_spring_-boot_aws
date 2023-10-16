@@ -43,22 +43,17 @@ public class S3Route extends RouteBuilder {
 
         from("direct:snsRoute")
             .log("from sns file:${body}")
+            .convertBodyTo(String.class)
             .log("form the sns file: ${body}")
-            .process(exchange -> {
-
-                String fileName = exchange.getMessage().getHeader("CamelAwsSnsSubject", String.class);
-                String snsMessageId = exchange.getMessage().getHeader("CamelAwsSnsMessageId", String.class);
-                String fileExtension = fileName.substring(fileName.lastIndexOf("."));
-                String s3Key = snsMessageId + fileExtension;
-                exchange.getMessage().setHeader("CamelAwsS3Key", s3Key);
-            })
             .to("direct:uploadToS3");
 
         from("direct:uploadToS3")
-            .log("the fiel Http reading:${body}")// Replace with the source directory path
+            .log("the fiel Http reading:${body}")
+            .setHeader("CamelAwsS3Key", header("fileName"))  // Replace with the source directory path
             .process(exchange -> {
                 log.info(exchange.getMessage().toString());
             })
+            .setHeader("CamelAwsS3Key", constant("uploadFile.json"))
             .to(s3Endpoint)
             .log("Fttp File uploaded to S3");
     }
