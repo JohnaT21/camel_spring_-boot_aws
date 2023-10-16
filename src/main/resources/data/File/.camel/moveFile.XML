@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<envelope xmlns="http://www.locuswms.com/xmlhostcom" fileID="159423DL.XML" msgID="DL" test="N" destination="PRODUCTION" fromsys="" tosys="DC25" timestamp="29-09-2023/14:29:15">
+	<record id="220">
+		<field name="DN" format="an">3482804560</field>
+		<field name="SU" format="aniso">17222</field>
+		<field name="WS" format="dt">02-10-2023/00:15:00</field>
+		<field name="WE" format="dt">02-10-2023/23:45:00</field>
+		<field name="DM" format="dt">02-10-2023/23:45:00</field>
+	</record>
+	<record id="223">
+		<field name="DN" format="an">3482804560</field>
+		<field name="PO" format="aniso">4601785030</field>
+		<field name="AN" format="aniso">41805</field>
+		<field name="QE" format="n">200</field>
+		<field name="PN" format="aniso">2301499</field>
+	</record>
+	<record id="223">
+		<field name="DN" format="an">3482804560</field>
+		<field name="PO" format="aniso">4601785030</field>
+		<field name="AN" format="aniso">41806</field>
+		<field name="QE" format="n">640</field>
+		<field name="PN" format="aniso">2301499</field>
+	</record>
+	<record id="223">
+		<field name="DN" format="an">3482804560</field>
+		<field name="PO" format="aniso">4601785030</field>
+		<field name="AN" format="aniso">220113</field>
+		<field name="QE" format="n">120</field>
+		<field name="PN" format="aniso">2301499</field>
+	</record>
+	<record id="224">
+		<field name="DN" format="an">3482804560</field>
+		<field name="CT" format="aniso"/>
+		<field name="SC" format="an">387146890000389112</field>
+		<field name="QU" format="n">1</field>
+	</record>
+	<record id="225">
+		<field name="DN" format="an">3482804560</field>
+		<field name="SC" format="an">387146890000389112</field>
+		<field name="CL" format="n">1</field>
+		<field name="AN" format="aniso">41805</field>
+		<field name="QU" format="n">200</field>
+		<field name="BB" format="d">30-10-2023</field>
+		<field name="LT" format="aniso">WM2339EF</field>
+		<field name="WT" format="n">200000</field>
+		<field name="WM" format="aniso">GRM</field>
+	</record>
+	<record id="224">
+		<field name="DN" format="an">3482804560</field>
+		<field name="CT" format="aniso"/>
+		<field name="SC" format="an">387146890000389129</field>
+		<field name="QU" format="n">1</field>
+	</record>
+	<record id="225">
+		<field name="DN" format="an">3482804560</field>
+		<field name="SC" format="an">387146890000389129</field>
+		<field name="CL" format="n">1</field>
+		<field name="AN" format="aniso">41806</field>
+		<field name="QU" format="n">400</field>
+		<field name="BB" format="d">30-10-2023</field>
+		<field name="LT" format="aniso">WM2339EB</field>
+		<field name="WT" format="n">400000</field>
+		<field name="WM" format="aniso">GRM</field>
+	</record>
+	<record id="224">
+		<field name="DN" format="an">3482804560</field>
+		<field name="CT" format="aniso"/>
+		<field name="SC" format="an">387146890000389136</field>
+		<field name="QU" format="n">1</field>
+	</record>
+	<record id="225">
+		<field name="DN" format="an">3482804560</field>
+		<field name="SC" format="an">387146890000389136</field>
+		<field name="CL" format="n">1</field>
+		<field name="AN" format="aniso">41806</field>
+		<field name="QU" format="n">240</field>
+		<field name="BB" format="d">30-10-2023</field>
+		<field name="LT" format="aniso">WM2339EB</field>
+		<field name="WT" format="n">240000</field>
+		<field name="WM" format="aniso">GRM</field>
+	</record>
+	<record id="224">
+		<field name="DN" format="an">3482804560</field>
+		<field name="CT" format="aniso"/>
+		<field name="SC" format="an">387146890000389143</field>
+		<field name="QU" format="n">1</field>
+	</record>
+	<record id="225">
+		<field name="DN" format="an">3482804560</field>
+		<field name="SC" format="an">387146890000389143</field>
+		<field name="CL" format="n">1</field>
+		<field name="AN" format="aniso">220113</field>
+		<field name="QU" format="n">120</field>
+		<field name="BB" format="d">30-10-2023</field>
+		<field name="LT" format="aniso">WM2339EL</field>
+		<field name="WT" format="n">120000</field>
+		<field name="WM" format="aniso">GRM</field>
+	</record>
+</envelope>

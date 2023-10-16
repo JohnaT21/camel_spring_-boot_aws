@@ -1,0 +1,11 @@
+{
+  "Type" : "Notification",
+  "MessageId" : "73e8623d-f2bd-5fdc-b796-3f9e7c78f43d",
+  "TopicArn" : "arn:aws:sns:us-east-1:739067113029:real-sns",
+  "Message" : "another one",
+  "Timestamp" : "2023-10-13T18:29:25.212Z",
+  "SignatureVersion" : "1",
+  "Signature" : "fH1NdTy4WBJb/ToLRFa/azBHHKc7vsoIfGwlFlN8Y4ZjMFA23wnVqRq7yEPQHPL2s0++yXrkT46vLoiHzTzQLnqyN/3YN+EVn4KDYxSLcZmWbwDxWEY4mfyZqy2RjbqsIsAJ6iBABwbfyMtFCha14CTW1vluIsv58tfybTL5ZDayo2Pu+YgwsWHwkODPGEJgbQ3PXcwsbCmXr5iUl7X0fkWv9fixwdanv5IOe4imUMnh1xFOJuG2AxqGexv9r+Yk3zgbkS3HqHs931oSlesuvlRczMzmojKGROQ5w2bB0hsM9ndJk8C0BscYniQWU0jR1E5W6bDIaxp6BVMzuOcOfQ==",
+  "SigningCertURL" : "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-01d088a6f77103d0fe307c0069e40ed6.pem",
+  "UnsubscribeURL" : "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:739067113029:real-sns:3a51696b-96a0-44d4-85ec-60c72dfe1fe5"
+}
