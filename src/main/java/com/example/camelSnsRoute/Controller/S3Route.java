@@ -47,6 +47,12 @@ public class S3Route extends RouteBuilder {
             .log("form the sns file: ${body}")
             .to("direct:uploadToS3");
 
+        from("direct:sqsRoute")
+            .log("from sns file:${body}")
+            .convertBodyTo(String.class)
+            .log("form the sns file: ${body}")
+            .to("direct:uploadToS3");
+
         from("direct:uploadToS3")
             .log("the fiel Http reading:${body}")
             .setHeader("CamelAwsS3Key", header("fileName"))  // Replace with the source directory path
