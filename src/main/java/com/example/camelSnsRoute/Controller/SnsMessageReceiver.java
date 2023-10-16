@@ -8,8 +8,6 @@ import org.springframework.stereotype.Service;
 public class SnsMessageReceiver {
 
     public void receiveMessage(String message) {
-
-        // Process the received SNS message
         log.info("from the message snss message");
         log.info(message);
         System.out.println("Received SNS message: " + message);

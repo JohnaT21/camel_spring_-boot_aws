@@ -4,10 +4,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.camel.CamelContext;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.aws2.sqs.Sqs2Component;
-import org.apache.camel.model.dataformat.JsonLibrary;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import com.example.camelSnsRoute.*;
 import software.amazon.awssdk.auth.credentials.AwsBasicCredentials;
 import software.amazon.awssdk.auth.credentials.StaticCredentialsProvider;
 import software.amazon.awssdk.regions.Region;
@@ -15,7 +13,7 @@ import software.amazon.awssdk.services.sqs.SqsClient;
 
 @Component
 @Slf4j
-public class ActiveMqRoute extends RouteBuilder {
+public class SQSSNSRoute extends RouteBuilder {
     @Autowired
     private CamelContext camelContext;
 
